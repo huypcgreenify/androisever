@@ -50,4 +50,4 @@ http.createServer(function(req, res) {
     } else {
         res.end("404 Not Found");
     }
-}).listen(9229);
+}).listen(process.env.PORT || '6880');
